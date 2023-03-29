@@ -10,7 +10,19 @@
 <body>
 
 	<!--  코드 작성  -->
+	<%
+	Map<String, String> sportsMap = new HashMap();
+	sportsMap.put("basketball", "채소연");
+	sportsMap.put("soccer", "클리스만");
+	request.setAttribute("sports", sportsMap);
+	%>
 
 	<jsp:include page="16sub.jsp"></jsp:include>
 </body>
 </html>
+
+
+
+
+
+
