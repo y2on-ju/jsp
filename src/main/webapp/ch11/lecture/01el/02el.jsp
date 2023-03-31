@@ -18,9 +18,9 @@
 	o.setName("서태웅");
 	request.setAttribute("attr1", o);
 	%>
-	<h1>이름 : ${attr1.Name}</h1>
-	<h1>나이 : ${attr1.Age}</h1>
-	<h1>결혼 : ${attr1.Married}</h1>
+	<h1>이름 : ${attr1.name }</h1>
+	<h1>나이 : ${attr1.age }</h1>
+	<h1>결혼 : ${attr1.married }</h1>
 </body>
 </html>
 
